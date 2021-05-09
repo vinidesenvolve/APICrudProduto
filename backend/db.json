@@ -1,0 +1,29 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "caneta bic",
+      "price": 2
+    },
+    {
+      "id": "2",
+      "name": "notebook lenovo",
+      "price": 3000
+    },
+    {
+      "id": "3",
+      "name": "samsung a30",
+      "price": 2459
+    },
+    {
+      "name": "test",
+      "price": "123",
+      "id": "Cn5QC-V"
+    },
+    {
+      "id": "d1d5915a-9fdc-4753-a630-5bd96a68b7a3",
+      "name": "uuiui",
+      "price": "12344"
+    }
+  ]
+}
