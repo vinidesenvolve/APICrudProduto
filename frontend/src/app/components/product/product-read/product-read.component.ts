@@ -11,7 +11,7 @@ import { ProductService } from '../product.service';
 export class ProductReadComponent implements OnInit {
 
   products: Product[] = [];
-  displayedColumns = ['name','price']
+  displayedColumns = ['name','price', 'action']
   
   constructor(private productService: ProductService) { }
 
@@ -22,4 +22,8 @@ export class ProductReadComponent implements OnInit {
     });
   }
 
+  deleteProduct() {
+    alert("Certeza?")
+    console.log("deleting...")
+  }
 }

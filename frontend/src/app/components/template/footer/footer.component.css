@@ -9,3 +9,8 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+.heart { 
+    color: red;
+    vertical-align: middle;
+}
