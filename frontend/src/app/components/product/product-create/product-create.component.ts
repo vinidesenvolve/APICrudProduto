@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {v4 as uuid} from 'uuid';
+import { nanoid } from 'nanoid';
 
 import { Product } from '../product.model';
 import { ProductService } from '../product.service';
@@ -13,7 +13,7 @@ import { ProductService } from '../product.service';
 export class ProductCreateComponent implements OnInit {
 
   product: Product = {
-    id: uuid(),
+    id: nanoid(6),
     name: '',
     price: null 
   }
@@ -29,13 +29,13 @@ export class ProductCreateComponent implements OnInit {
   createProduct(): void {
 
     this.productService.create(this.product).subscribe(() => {
-      this.productService.showMessage('Produto criado com sucesso!');
-      this.router.navigate(['/product']);
-    });
+      this.productService.showMessage('Produto criado com sucesso!')
+      this.router.navigate(['/product'])
+    })
       }
 
-  navigateToProduct(): void {
-    this.router.navigate(['/product']);
+  cancel(): void {
+    this.router.navigate(['/product'])
   }
 
 }
