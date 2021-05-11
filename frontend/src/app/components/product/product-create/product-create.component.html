@@ -5,7 +5,13 @@
             <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
         </mat-form-field>
         <mat-form-field>
-            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price">
+           <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price" 
+           currencyMask [options]="{
+               prefix: 'R$ ', 
+               thousands: '.', 
+               decimal: ',',
+               align: 'left',
+               allowNegative: false }">
         </mat-form-field>
     </form>
     <button mat-raised-button (click)="createProduct()" color="primary">
