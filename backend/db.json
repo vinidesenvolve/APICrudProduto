@@ -2,8 +2,28 @@
   "product": [
     {
       "id": "xh-8Z7",
-      "name": "Notebook  Lenovo X",
-      "price": 3000
+      "name": "Notebook Lenuevo",
+      "price": 3008.88
+    },
+    {
+      "id": "4_6CnS",
+      "name": "Teclado wireless",
+      "price": 49.99
+    },
+    {
+      "id": "rMlX4y",
+      "name": "Marcador de pagina",
+      "price": 50
+    },
+    {
+      "id": "I_Qetw",
+      "name": "Monitor",
+      "price": 851.22
+    },
+    {
+      "id": "xE0IV8",
+      "name": "Rádio Lo Fi",
+      "price": 10
     }
   ]
 }
