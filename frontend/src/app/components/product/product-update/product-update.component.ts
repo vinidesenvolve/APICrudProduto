@@ -20,12 +20,7 @@ export class ProductUpdateComponent implements OnInit {
     ) { }
 
   ngOnInit(): void {
-
     const id = this.route.snapshot.paramMap.get('id')
-    if(id == null || id == '' || id == undefined || id.length == 0) {
-      alert("Id inválido!")
-      throw this.router.navigate(['/product']);
-    } 
     
     this.productService.readById(id).subscribe(product => {
       this.product = product
