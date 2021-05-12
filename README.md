@@ -71,16 +71,19 @@ Na pasta front-end
 <http://localhost:4200/>
 
 ### Tela inicial - Home
-![Imagem home](https://github.com/vinidesenvolve/PerguntasRespostas/blob/master/public/img/home.png)
+![Imagem home](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/Home.png)
 
 ### Tela de produtos - Produtos
-![Imagem pergunta](https://github.com/vinidesenvolve/PerguntasRespostas/blob/master/public/img/pergunta.png)
+![Imagem pergunta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductRead.png)
 
 ### Tela para cadastrar - Produto
-![Imagem resposta](https://github.com/vinidesenvolve/PerguntasRespostas/blob/master/public/img/resposta.png)
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductCreate.png)
 
 ### Tela para editar - Produto
-![Imagem resposta](https://github.com/vinidesenvolve/PerguntasRespostas/blob/master/public/img/resposta.png)
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductUpdate.png)
+
+### Tela para excluir - Produto
+![Imagem resposta](https://github.com/vinidesenvolve/APICrudProduto/blob/master/frontend/src/assets/img/ProductDelete.png)
 
 ## Tecnologias
 
