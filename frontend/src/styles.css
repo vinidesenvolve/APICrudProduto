@@ -4,9 +4,9 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .msg-sucess{
-    background-color: #0aa52c;
+    background-color: #6A1B9A;
 }   
 
 .msg-error{
-    background-color: rgb(245, 60, 60);
+    background-color: #f53c3c;
 }
